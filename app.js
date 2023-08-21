@@ -93,21 +93,35 @@
 
 //Questin No-14
 
-var device = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// var device = ["Keyboard", "Mouse", "Printer", "Monitor"];
 
-document.write("Devices:" + "<br/>" + device);
-document.write("<br/>");
+// document.write("Devices:" + "<br/>" + device);
+// document.write("<br/>");
 
-var returnValue = device.pop();
-document.write("<br/> Out:" + "<br/>" + returnValue);
+// var returnValue = device.pop();
+// document.write("<br/> Out:" + "<br/>" + returnValue);
 
-var returnValue = device.pop();
-document.write("<br/> Out:" + "<br/>" + returnValue);
+// var returnValue = device.pop();
+// document.write("<br/> Out:" + "<br/>" + returnValue);
 
-var returnValue = device.pop();
-document.write("<br/> Out:" + "<br/>" + returnValue);
+// var returnValue = device.pop();
+// document.write("<br/> Out:" + "<br/>" + returnValue);
 
-var returnValue = device.pop();
-document.write("<br/> Out:" + "<br/>" + returnValue);
+// var returnValue = device.pop();
+// document.write("<br/> Out:" + "<br/>" + returnValue);
+// Q Node.15
+var phoneMenufactures = ["Apple", "Samsung" , "Motorola" , "Nokia" , "Sony", "Haier"];
+document.write("<h1>Phone Menufactures</h1>");
+document.write("<h3>Select your favourtie Mobile Brand</h3>");
+document.write("<select>");
+document.write("<option>"+phoneMenufactures[0]+"</option>");
+document.write("<option>"+phoneMenufactures[1]+"</option>");
+document.write("<option>"+phoneMenufactures[2]+"</option>");
+document.write("<option>"+phoneMenufactures[3]+"</option>");
+document.write("<option>"+phoneMenufactures[4]+"</option>");
+document.write("<option>"+phoneMenufactures[5]+"</option>");
+document.write("</select>");
+
+
 
 
